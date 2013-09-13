@@ -8,7 +8,7 @@ gem 'jquery-rails'
 
 #specify what gem to use in which enviroment
 group :production do
-	gem 'pg'
+	gem 'sqlite3'
 end
 
 group :development do
