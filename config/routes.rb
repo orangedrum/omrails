@@ -1,5 +1,9 @@
 Omrails::Application.routes.draw do
-  root 'application#index'
+  get ':id' => 'pages#why'
+
+  root "pages#home"
+  #  root 'application#index' motherfer pg
+  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
