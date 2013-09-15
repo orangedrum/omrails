@@ -1,7 +1,9 @@
 Omrails::Application.routes.draw do
   
-  get ':id' => 'pages#why'
-  root 'pages#home'
+  devise_for :users
+  root 'pages#home';
+  get 'why' => 'pages#why';
+
   #  root 'application#index' motherfer pg
   
   # The priority is based upon order of creation: first created -> highest priority.

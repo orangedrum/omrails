@@ -5,6 +5,8 @@ gem 'rails_12factor'
 gem 'rails', '4.0.0'
 gem 'sass-rails', '~> 4.0.0'
 gem 'jquery-rails'
+gem 'devise'
+gem 'simple_form'
 
 
 #specify what gem to use in which enviroment
