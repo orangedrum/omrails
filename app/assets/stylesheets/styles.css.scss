@@ -3,12 +3,12 @@ $baseFontFamily: Oxygen;
 @import url(http://fonts.googleapis.com/css?family=Oxygen);
 */
 
-@import 'bootstrap';
-
 
 $navbarBackgroundHighlight: white;
 $navbarBackground: white;
 $btnPrimaryBackground: fushia;
+
+@import 'twitter/bootstrap';
 
 body{
 	padding-top: 60px;
@@ -19,5 +19,3 @@ body{
 	bottom: 0;
 	margin-top: 50px;
 }
-
-@import 'bootstrap-responsive';

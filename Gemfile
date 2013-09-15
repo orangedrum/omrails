@@ -27,7 +27,10 @@ gem 'turbolinks'
 
 gem 'jbuilder', '~> 1.2'
 
-gem 'bootstrap-sass', '~> 2.3.2.1'
+gem 'anjlab-bootstrap-rails', :require => 'bootstrap-rails',
+                              :github => 'anjlab/bootstrap-rails'
+
+gem "haml-rails", "~> 0.4"
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
